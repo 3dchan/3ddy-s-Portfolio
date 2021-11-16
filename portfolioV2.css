@@ -1,89 +1,4 @@
-@font-face {
-  font-family: 'Domine';
-  src: url(../3ddy-s-Portfolio/css/Domine/Domine-Regular.ttf)
-}
 
-
-
-
-/* BASIC ELEMENT */
-
-* {
-  box-sizing: border-box;
-}
-
-html,body{
-  background-color: #FBF7FE;
-}
-
-/* Navigation */
-.navbar {
-  margin: 45px 130px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-nav ul, nav li {
-  display: inline;
-  margin: 0 30px;
-}
-
-
-p, h1, h2, h3 {
-  margin: 0;
-  padding: 0;
-}
-
-/* text styling */
-h1{
-  font-family:'Domine';
-  /* size: 3; */
-  letter-spacing: -2px;
-  font-weight: 400;
-  font-size: 55px;
-  margin-bottom: 0.5rem;
-}
-
-h2{
-  font-family:'Domine';
-  font-size: 40px;
-  font-weight: 400;
-}
-h3{
-  font-family: 'Avenir';
-  font-size: 40px;
-}
-
-li, button, p{
-  font-family: 'Avenir';
-  font-size: 20px;
-}
-button a, nav a{
-  text-decoration: none;
-}
-
-button a, button a:visited{
-  color: #FBF7FE;
-}
-nav li a:visited{
-  color: black;
-}
-
-/* Button */
-.primary-button{
-border-radius: 12px;
-border-color: transparent;
-background-color: #89AAFF;
-padding: 12px 35px;
-font-weight: bold;
-color: white;
-
-}
-.primary-button--wide{
-padding: 12px 60px;
-
-}
 
 /* Hero section */
 .home-banner{
@@ -209,7 +124,7 @@ border-radius: 12px;
 }
 
 .footer-description{
-  margin:50px;
+  margin: 50px;
 }
 
 .footer-connect{
