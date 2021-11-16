@@ -103,3 +103,16 @@ border-radius: 12px;
 .solution li {
   max-width: 50ch;
 }
+
+/* Design */
+.wireframe-grid{
+  
+  display: grid;
+  justify-content: center;
+  grid-column-gap: 20px;
+  grid-template-columns: repeat(auto-fit, 300px);
+}
+
+.wireframe-grid img {
+  width: 100%;
+}
