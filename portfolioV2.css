@@ -29,7 +29,7 @@
 
 /* My skill section */
 .my-skill{
-  margin: 60px 130px;
+  margin: 120px 130px;
   display: grid;
   flex-direction: row;
   align-items: center;
@@ -63,6 +63,9 @@
 
 .projects-section {
   border-radius: 12px;
+  margin-top: 120x;
+  margin-bottom: 120px;
+  height: 80vh;
   /* box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.24); */
 }
 
@@ -82,7 +85,6 @@
 }
 
 .two-column-grid{
-  margin: 114px 130px;
   padding: 15px 90px;
   display: grid;
   grid-column-gap: 0;
@@ -90,8 +92,9 @@
   justify-content: space-between;
   grid-template-columns: repeat(2, 1fr);
 }
-.orange-gradients, .violet-gradients,.oceanblue-gradients, .two-column-grid{
-  margin: 15px 130px;
+.portfolio-page-margins {
+  margin-left: 130px;
+  margin-right: 130px;
 }
 
 .column-image {
