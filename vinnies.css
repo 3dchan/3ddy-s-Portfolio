@@ -20,8 +20,8 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
-.section-padding {
-  padding: 48px 90px;
+.section-heading {
+  padding: 48px 0;
 }
 
 .page-margin {
@@ -128,7 +128,7 @@ border-radius: 12px;
   justify-content: center;
   grid-column-gap: none;
   grid-row-gap: 50px;
-  grid-template-columns: repeat(auto-fit, 300px);
+  grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
 }
 
 .wireframe-grid img {

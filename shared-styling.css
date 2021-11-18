@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Domine';
-  src: url(../3ddy-s-Portfolio/css/Domine/Domine-Regular.ttf)
+  src: url("./css/Domine/Domine-Regular.ttf");
 }
 
 /* BASIC ELEMENT */
