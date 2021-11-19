@@ -98,12 +98,12 @@ border-radius: 12px;
 }
 
 .row {
-  margin: 0 220px;
+  margin: 0 130px;
   display: flex;
 }
 
 .column {
-  flex: 33.33%;
+  flex: 25%;
   padding: 10px;
 }
 
