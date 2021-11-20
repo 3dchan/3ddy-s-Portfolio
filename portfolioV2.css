@@ -115,14 +115,14 @@
   background: linear-gradient(90deg, #9dc4ff -0.42%, #ffffff 79.01%);
 }
 
-.column-image {
+.project-image {
   display: flex;
   justify-content: center;
 }
 
-.column-image img {
-  max-width: 370px;
+.project-image img {
   width: 100%;
+  max-width: 370px;
 }
 
 .column-text h3 {
