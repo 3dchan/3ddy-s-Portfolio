@@ -25,26 +25,39 @@
   margin: 1.5rem 0;
 }
 
+/* Section layout */
+.skills-section,
+.projects-section {
+  margin: 220px 0;
+}
+
 /* My skill section */
-.my-skill {
-  margin: 120px 0;
+.skills-grid {
+  margin-top: 80px;
   display: grid;
   flex-direction: row;
+  justify-content: center;
   align-items: center;
-  text-align: justify;
   grid-template-columns: repeat(3, 1fr);
-}
-.skills {
-  margin-top: 100px;
-  margin-bottom: -50px;
 }
 
 .skills-heading {
-  grid-column: span 3;
+  text-align: center;
+  margin-bottom: 0;
 }
 
-.skill-heading .outline-heading {
+.skill-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.skill-heading,
+.skill-heading p {
   margin-top: 2rem;
+  text-align: center;
 }
 
 .skill-heading {
@@ -58,9 +71,6 @@
 }
 
 .flex-container {
-  margin-bottom: 100px;
-  padding-left: 4rem;
-  padding-right: 4rem;
   display: flex;
   text-align: justify;
   justify-content: center;
@@ -73,7 +83,7 @@
   padding-top: 50px;
 }
 
-.projects-section {
+.project {
   padding: 15px 90px;
   border-radius: 12px;
   margin-top: 80px;
