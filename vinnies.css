@@ -1,32 +1,26 @@
+/* Title */
+.page-title,
+h1 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
 
-
-  /* Title */
-  .page-title, h1{
-    text-align: center;
-    display: flex;
-   justify-content: center;
-  }
-
-  h1{
-    margin: 4rem;
-  }
+h1 {
+  margin: 4rem;
+}
 
 /* The start of Vinnies Shop */
-  .two-column-grid{
-    display: grid;
-    grid-column-gap: 40px;
-    align-items: center;
-    justify-content: space-between;
-    grid-template-columns: repeat(2, 1fr);
-  }
+.two-column-grid {
+  display: grid;
+  grid-column-gap: 40px;
+  align-items: center;
+  justify-content: space-between;
+  grid-template-columns: repeat(2, 1fr);
+}
 
 .section-heading {
   padding: 60px 0;
-}
-
-.page-margin {
-  margin-left: 130px;
-  margin-right: 130px;
 }
 
 .column-image {
@@ -48,24 +42,28 @@
   max-width: 35ch;
   margin-bottom: 2rem;
 }
-.list{
-  font-weight:900;
+.list {
+  font-weight: 900;
 }
 
 /* User Finding */
-.user-testing-card{
-  background: radial-gradient(170.99% 170.99% at 66.95% 165.74%, rgba(159, 219, 253, 0.42) 0%, rgba(255, 255, 255, 0.3) 100%);
-border: 1px solid rgba(255, 255, 255, 0.3);
-box-sizing: border-box;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-backdrop-filter: blur(12px);
-/* Note: backdrop-filter has minimal browser support */
-border-radius: 12px;
+.user-testing-card {
+  background: radial-gradient(
+    170.99% 170.99% at 66.95% 165.74%,
+    rgba(159, 219, 253, 0.42) 0%,
+    rgba(255, 255, 255, 0.3) 100%
+  );
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(12px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 12px;
 }
 
-.user-testing{
-  margin: 0 220px;
+.user-testing {
   display: grid;
+  justify-content: center;
   grid-column-gap: 20px;
   text-align: justify;
   grid-template-columns: repeat(3, 1fr);
@@ -75,20 +73,16 @@ border-radius: 12px;
   text-align: center;
   max-width: 50ch;
   margin: 1.5rem 0;
- }
+}
 
-.user-finding-image{
+.user-finding-image {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: auto;
 }
 
-.user-finding{
-  grid-column: span 3;
-}
-
-.flex-container{
+.flex-container {
   margin-top: 20px;
   padding-left: 4rem;
   padding-right: 4rem;
@@ -98,7 +92,6 @@ border-radius: 12px;
 }
 
 .row {
-  margin: 0 130px;
   display: flex;
 }
 
@@ -108,8 +101,8 @@ border-radius: 12px;
 }
 
 /* Solution */
-.solution{
-  margin-top: 30px;
+.solution {
+  margin-top: 80px;
   margin-bottom: 200px;
   display: flex;
   flex-direction: column;
@@ -133,7 +126,7 @@ border-radius: 12px;
   margin-top: 0;
 }
 
-.wireframe-grid{
+.wireframe-grid {
   display: grid;
   justify-content: center;
   grid-column-gap: none;
@@ -157,6 +150,6 @@ border-radius: 12px;
 }
 
 /* footer */
-.footer-description{
+.footer-description {
   text-align: center;
 }

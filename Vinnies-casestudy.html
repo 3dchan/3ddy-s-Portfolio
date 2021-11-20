@@ -1,147 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eddy's Portfolio</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Eddy's Portfolio</title>
+    <link rel="stylesheet" href="./shared-styling.css" text="text/css" />
+    <link rel="stylesheet" href="./vinnies.css" text="text/css" />
+  </head>
 
-  <link rel="stylesheet" href="./shared-styling.css" text="text/css">
-  <link rel="stylesheet" href="./vinnies.css" text="text/css">
-</head>
+  <body>
+    <nav class="navbar">
+      <a href="./"><img src="./images/logo.png" alt="logo" /></a>
+      <ul class="nav-links">
+        <li><a href="/AboutMe.html">About</a></li>
+        <li><a href="./#projects">Projects</a></li>
+        <li><a href="">Designs</a></li>
+      </ul>
+      <button class="primary-button"><a href="">Contact</a></button>
+    </nav>
 
-<body>
-  <nav class="navbar">
-    <a href="./"><img src="./images/logo.png" alt="logo" /></a>
-    <ul class="nav-links">
-      <li><a href="/AboutMe.html">About</a></li>
-      <li><a href="#skills">Projects</a></li>
-      <li><a href="">Designs</a></li>
-    </ul>
-    <button class="primary-button"><a href="">Contact</a></button>
-  </nav>
+    <div class="page-title">
+      <h1>
+        VINNIES Shop<br />
+        Web app
+      </h1>
+    </div>
 
-  <div class="page-title">
-    <h1>VINNIES Shop<br />
-      Web app</h1>
-  </div>
+    <section class="two-column-grid">
+      <div class="column-text">
+        <h3>VINNIES Shop</h3>
+        <p>
+          Vinnies Shops provide furniture, clothing and household goods to
+          families and people who are in need or being assisted by conference
+          members. The excess is provided for sale to the public.
+        </p>
+        <p class="list">Vinnies Shops needed</p>
+        <ul class="list">
+          <li>A mobile app for customers to place orders</li>
+          <li>
+            A web for the St Vincent de paul organisition that creates Vinnies
+            shop to receive support from donors
+          </li>
+        </ul>
+      </div>
+      <div class="column-image">
+        <img src="./images/Vinnies image.png" />
+      </div>
+    </section>
 
-  <section class="two-column-grid page-margin section-padding">
-    <div class="column-text">
-      <h3>VINNIES Shop</h3>
-      <p>Vinnies Shops provide furniture, clothing and household goods to families and people who are in need or being
-        assisted by conference members. The excess is provided for sale to the public.</p>
-      <p class="list">Vinnies Shops needed</p>
-      <ul class="list">
-        <li>A mobile app for customers to place orders</li>
-        <li>A web for the St Vincent de paul organisition that creates Vinnies shop to receive support from donors</li>
+    <section class="two-column-grid">
+      <div class="column-image">
+        <img src="./images/Vinnies Old website.png" />
+      </div>
+      <div class="column-text">
+        <h3>The Problem</h3>
+        <p>
+          The impact of pendamnic discourage users to shop in physical store and
+          the Vinnie’s needs to have their own online shop to improve thier
+          customer shopping expirience as well as its competitive advantage.
+        </p>
+      </div>
+    </section>
+
+    <h1>Research</h1>
+
+    <section class="two-column-grid">
+      <div class="column-text">
+        <h3>Interview</h3>
+        <p>
+          We conducted four interviews with potential to find out user needs and
+          thier thought of current website of St Vincent, Vinnies ebay and
+          online shopping experince.
+        </p>
+        <ul class="list">
+          <li>
+            Q1 : When you go to online shopping app, what are the first things
+            you’re likely to check?
+          </li>
+          <li>
+            Q2 : Do you feel comfortable when shopping with Vinnies Ebay Shop?
+            Why?
+          </li>
+          <li>
+            Q3 : Is there any hurdle when you Visit St Vincent de paul landing
+            page (minor/major)?
+          </li>
+        </ul>
+      </div>
+      <div class="column-image">
+        <img src="./images/Vinnies-research.png" />
+      </div>
+    </section>
+
+    <section class="user-testing">
+      <div class="flex-container user-testing-card">
+        <div class="user-finding">
+          <img class="user-finding-image" src="./images/Product.png" />
+          <p class="finding-comment">
+            All interview participants mentioned few key features that they
+            would check first; a product price, a good picture quality,
+            description and delivery waiting time
+          </p>
+        </div>
+      </div>
+      <div class="flex-container user-testing-card">
+        <div class="user-finding">
+          <img class="user-finding-image" src="./images/Money.png" />
+          <p class="finding-comment">
+            All participants mentioned about the issue between<strong
+              >price and quality.</strong
+            >
+            Need encourage to shop and unclear about<strong
+              >deliver time and method.</strong
+            >
+          </p>
+        </div>
+      </div>
+      <div class="flex-container user-testing-card">
+        <div class="user-finding">
+          <img class="user-finding-image" src="./images/Sad.png" />
+          <p class="finding-comment">
+            <strong>80% users failed to navigate to vennies ebay shop</strong>
+            and gave up because of frustration. They also mention the content
+            information on its landing page was a bit clutted and no sense
+            hierarc
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="solution">
+      <h3>The Solution</h3>
+      <ul>
+        <li>
+          A mobile first design online shop with clearer categories and pick up
+          options for users who didn’t like long delivery time.
+        </li>
+        <li>
+          Implimenting a clearner nevigation path for St Vincent de paul landing
+          page
+        </li>
       </ul>
     </div>
-    <div class="column-image">
-      <img src="./images/Vinnies image.png">
-    </div>
-  </section>
 
-  <section class="two-column-grid page-margin section-padding">
-    <div class="column-image">
-      <img src="./images/Vinnies Old website.png">
-    </div>
-    <div class="column-text">
-      <h3>The Problem</h3>
-      <p>The impact of pendamnic discourage users to shop in physical store and the Vinnie’s needs to have their own
-        online shop to improve thier customer shopping expirience as well as its competitive advantage.</p>
-    </div>
-  </section>
+    <h1>Design Process</h1>
 
-  <h1>Research</h1>
-
-  <section class="two-column-grid page-margin section-padding">
-    <div class="column-text">
-      <h3>Interview</h3>
-      <p>We conducted four interviews with potential to find out user needs and thier thought of current website of St
-        Vincent, Vinnies ebay and online shopping experince. </p>
-      <ul class="list">
-        <li>Q1 : When you go to online shopping app, what are the first things you’re likely to check? </li>
-        <li>Q2 : Do you feel comfortable when shopping with Vinnies Ebay Shop? Why? </li>
-        <li>Q3 : Is there any hurdle when you Visit St Vincent de paul landing page (minor/major)?</li>
-      </ul>
-    </div>
-    <div class="column-image">
-      <img src="./images/Vinnies-research.png">
-    </div>
-  </section>
-
-  <section class="user-testing">
-    <div class="flex-container user-testing-card">
-      <div class="user-finding"> <img class="user-finding-image" src="./images/Product.png" />
-        <p class="finding-comment">All interview participants mentioned few key features that they would check first; a
-          product price, a good picture quality, description and delivery waiting time</p>
+    <h3 class="section-heading">Paper Wireframe</h3>
+    <div class="row">
+      <div class="column">
+        <img src="./images/Paper-wireframe 1.png" style="width: 100%" />
+      </div>
+      <div class="column">
+        <img src="./images/Paper-wireframe 2.png" style="width: 100%" />
+      </div>
+      <div class="column">
+        <img src="./images/Paper-wireframe 3.png" style="width: 100%" />
+      </div>
+      <div class="column">
+        <img src="./images/Paper-wireframe 4.png" style="width: 100%" />
       </div>
     </div>
-    <div class="flex-container user-testing-card">
-      <div class="user-finding"> <img class="user-finding-image" src="./images/Money.png" />
-        <p class="finding-comment">All participants mentioned about the issue between<strong>price and quality.</strong>
-          Need encourage
-          to shop
-          and unclear about<strong>deliver time and method.</strong></p>
+
+    <h3 class="section-heading">Lo-fi Wireframe</h3>
+    <div class="row">
+      <div class="column">
+        <img src="./images/lo-fi 1.png" style="width: 100%" />
+      </div>
+      <div class="column">
+        <img src="./images/lo-fi 2.png" style="width: 100%" />
+      </div>
+      <div class="column">
+        <img src="./images/lo-fi 3.png" style="width: 100%" />
+      </div>
+      <div class="column">
+        <img src="./images/lo-fi 4.png" style="width: 100%" />
       </div>
     </div>
-    <div class="flex-container user-testing-card">
-      <div class="user-finding"> <img class="user-finding-image" src="./images/Sad.png" />
-        <p class="finding-comment"><strong>80% users failed to navigate to vennies ebay shop</strong> and gave up
-          because of frustration.
-          They also mention the content information on its landing page was a bit clutted and no sense hierarc</p>
-      </div>
-    </div>
-  </section>
 
-  <div class="solution">
-    <h3>The Solution</h3>
-    <ul>
-      <li>A mobile first design online shop with clearer categories and pick up options for users who didn’t like long
-        delivery time. </li>
-      <li>Implimenting a clearner nevigation path for St Vincent de paul landing page</li>
-    </ul>
-  </div>
-
-
-  <h1>Design Process</h1>
-
-  <h3 class="section-heading page-margin">Paper Wireframe</h3>
-  <div class="row">
-    <div class="column">
-      <img src="./images/Paper-wireframe 1.png" style="width:100%">
-    </div>
-    <div class="column">
-      <img src="./images/Paper-wireframe 2.png" style="width:100%">
-    </div>
-    <div class="column">
-      <img src="./images/Paper-wireframe 3.png" style="width:100%">
-    </div>
-    <div class="column">
-      <img src="./images/Paper-wireframe 4.png" style="width:100%">
-    </div>
-  </div>
-
-
-  <h3 class="section-heading page-margin">Lo-fi Wireframe</h3>
-  <div class="row">
-    <div class="column">
-      <img src="./images/lo-fi 1.png" style="width:100%">
-    </div>
-    <div class="column">
-      <img src="./images/lo-fi 2.png" style="width:100%">
-    </div>
-    <div class="column">
-      <img src="./images/lo-fi 3.png" style="width:100%">
-    </div>
-    <div class="column">
-      <img src="./images/lo-fi 4.png" style="width:100%">
-    </div>
-  </div>
-
-  <!-- <section class="wireframe first-wireframe page-margin">
+    <!-- <section class="wireframe first-wireframe">
     <h3 class="section-heading">Paper Wireframe</h3>
     <div class="wireframe-grid">
       <div> <img src="./images/Paper-wireframe 1.png" />
@@ -155,7 +193,7 @@
     </div>
   </section> -->
 
-  <!-- <section class="wireframe page-margin">
+    <!-- <section class="wireframe">
     <h3 class="section-heading">Low-Fi Wireframe</h3>
     <div class="wireframe-grid">
       <div> <img src="./images/lo-fi 1.png" />
@@ -169,30 +207,30 @@
     </div>
   </section> -->
 
-  <section class="wireframe page-margin">
-    <h3 class="section-heading">UI style guide</h3>
-    <div class="wireframe-full-width-image">
-      <img src="./images/Style guide.png" />
-    </div>
-  </section>
+    <section class="wireframe">
+      <h3 class="section-heading">UI style guide</h3>
+      <div class="wireframe-full-width-image">
+        <img src="./images/Style guide.png" />
+      </div>
+    </section>
 
-  <h3 class="section-heading page-margin">Hi-fi Wireframe</h3>
-  <div class="row">
-    <div class="column">
-      <img src="./images/Hi-fi 1.png" style="width:100%">
+    <h3 class="section-heading">Hi-fi Wireframe</h3>
+    <div class="row">
+      <div class="column">
+        <img src="./images/Hi-fi 1.png" style="width: 100%" />
+      </div>
+      <div class="column">
+        <img src="./images/hi-fii 2.png" style="width: 100%" />
+      </div>
+      <div class="column">
+        <img src="./images/hi-fi 3.png" style="width: 100%" />
+      </div>
+      <div class="column">
+        <img src="./images/hi-fi 4.png" style="width: 100%" />
+      </div>
     </div>
-    <div class="column">
-      <img src="./images/hi-fii 2.png" style="width:100%">
-    </div>
-    <div class="column">
-      <img src="./images/hi-fi 3.png" style="width:100%">
-    </div>
-    <div class="column">
-      <img src="./images/hi-fi 4.png" style="width:100%">
-    </div>
-  </div>
 
-  <!-- <section class="wireframe page-margin">
+    <!-- <section class="wireframe">
     <h3 class="section-heading">Hi-Fi Wireframe</h3>
     <div class="wireframe-grid">
       <div> <img src="./images/Hi-fi 1.png" />
@@ -206,40 +244,50 @@
     </div>
   </section> -->
 
-  <section class="wireframe page-margin">
-    <h3 class="section-heading">Vinnies Shop Website </h3>
-    <div class="wireframe-full-width-image">
-      <img src="./images/Vinnie Shop homepage.png" />
-    </div>
-  </section>
+    <section class="wireframe">
+      <h3 class="section-heading">Vinnies Shop Website</h3>
+      <div class="wireframe-full-width-image">
+        <img src="./images/Vinnie Shop homepage.png" />
+      </div>
+    </section>
 
-  <section class="wireframe page-margin">
-    <h3 class="section-heading">St Vincent Redesign Website</h3>
-    <div class="wireframe-full-width-image">
-      <img src="./images/St Vincent hompage.png" />
-    </div>
-  </section>
+    <section class="wireframe">
+      <h3 class="section-heading">St Vincent Redesign Website</h3>
+      <div class="wireframe-full-width-image">
+        <img src="./images/St Vincent hompage.png" />
+      </div>
+    </section>
 
-  <footer class="footer-section">
-    <img class="coffee-ilustration" src="./images/Coffee-illustration.png">
-    <p class="footer-description">Thank you so much for reading my case study and I hope you enjoy it.<br />
-      You can learn more about me <a href="./AboutMe.html"> here.</a></p>
-    <h3> Let’s get connected!</h3>
-    <h3 class="footer-connect">Would like to get to know you!</h3>
+    <footer class="footer-section">
+      <img class="coffee-ilustration" src="./images/Coffee-illustration.png" />
+      <p class="footer-description">
+        Thank you so much for reading my case study and I hope you enjoy it.<br />
+        You can learn more about me <a href="./AboutMe.html"> here.</a>
+      </p>
+      <h3>Let’s get connected!</h3>
+      <h3 class="footer-connect">Would like to get to know you!</h3>
 
-    <div class="social-links">
-      <ul>
-        <li><a href="#"><img class="social-icon" src="./images/email 2.png" alt="Mail" /></a>
-        </li>
-        <li><a href="https://www.linkedin.com/in/eddy-chandra-/"><img class="social-icon"
-              src="./images/linkedin icon.png" alt="Linkedin" /></a></li>
-      </ul>
-    </div>
+      <div class="social-links">
+        <ul>
+          <li>
+            <a href="#"
+              ><img class="social-icon" src="./images/email 2.png" alt="Mail"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/eddy-chandra-/"
+              ><img
+                class="social-icon"
+                src="./images/linkedin icon.png"
+                alt="Linkedin"
+            /></a>
+          </li>
+        </ul>
+      </div>
 
-    <p class="footer-text">I design and coded this portfolio from scratch Eddy Chandra ⏤ 2021</p>
-  </footer>
-
-
-</body>
-
+      <p class="footer-text">
+        I design and coded this portfolio from scratch Eddy Chandra ⏤ 2021
+      </p>
+    </footer>
+  </body>
 </html>

@@ -1,23 +1,21 @@
-
-
 /* Hero section */
-.home-banner{
-  margin: 45px 130px;
+.home-banner {
+  margin: 45px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: justify;
 }
 
-.hi-emoji-h1{
+.hi-emoji-h1 {
   display: flex;
   align-items: center;
   text-align: justify;
 }
 
-.hi-emoji{
+.hi-emoji {
   width: 70px;
-  padding: 1rem ;
+  padding: 1rem;
 }
 
 .home-description {
@@ -28,28 +26,38 @@
 }
 
 /* My skill section */
-.my-skill{
-  margin: 120px 130px;
+.my-skill {
+  margin: 120px 0;
   display: grid;
   flex-direction: row;
   align-items: center;
   text-align: justify;
   grid-template-columns: repeat(3, 1fr);
 }
- .skills {
-   margin-top: 100px;
-   margin-bottom: -50px;
- }
-
- .skill-heading .outline-heading {
-   margin-top: 2rem;
- }
+.skills {
+  margin-top: 100px;
+  margin-bottom: -50px;
+}
 
 .skills-heading {
   grid-column: span 3;
 }
 
-.flex-container{
+.skill-heading .outline-heading {
+  margin-top: 2rem;
+}
+
+.skill-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skill-heading .uxui-image {
+  max-height: 102px; /* Height of widest icon */
+}
+
+.flex-container {
   margin-bottom: 100px;
   padding-left: 4rem;
   padding-right: 4rem;
@@ -58,48 +66,43 @@
   justify-content: center;
 }
 
-
 /* Project styling */
 
 .projects-heading {
   text-align: center;
-  margin-bottom: 50px;
+  padding-top: 50px;
 }
 
 .projects-section {
+  padding: 15px 90px;
   border-radius: 12px;
-  margin-top: 120x;
+  margin-top: 120px;
   margin-bottom: 120px;
   height: 80vh;
   /* box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.24); */
 }
 
-.blue-gradients{
-  background: linear-gradient(270deg, #CDE1FE 41.99%, #FFFFFF 97.03%);
+.blue-gradients {
+  background: linear-gradient(270deg, #cde1fe 41.99%, #ffffff 97.03%);
 }
-.orange-gradients{
-  background: linear-gradient(90deg, #FFF5EA -0.33%, rgba(255, 245, 234, 0) 97.03%);
-}
-
-.violet-gradients{
-  background: linear-gradient(270deg, #A9BAE0 -4.52%, rgba(169, 171, 224, 0) 88.32%);
-}
-
-.oceanblue-gradients{
-  background: linear-gradient(90deg, #9DC4FF -0.42%, #FFFFFF 79.01%);
+.orange-gradients {
+  background: linear-gradient(
+    90deg,
+    #fff5ea -0.33%,
+    rgba(255, 245, 234, 0) 97.03%
+  );
 }
 
-.two-column-grid{
-  padding: 15px 90px;
-  display: grid;
-  grid-column-gap: 0;
-  align-items: center;
-  justify-content: space-between;
-  grid-template-columns: repeat(2, 1fr);
+.violet-gradients {
+  background: linear-gradient(
+    270deg,
+    #a9bae0 -4.52%,
+    rgba(169, 171, 224, 0) 88.32%
+  );
 }
-.portfolio-page-margins {
-  margin-left: 130px;
-  margin-right: 130px;
+
+.oceanblue-gradients {
+  background: linear-gradient(90deg, #9dc4ff -0.42%, #ffffff 79.01%);
 }
 
 .column-image {
@@ -120,4 +123,3 @@
   max-width: 35ch;
   margin-bottom: 2rem;
 }
-

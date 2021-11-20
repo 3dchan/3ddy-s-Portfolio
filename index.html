@@ -1,133 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eddy's Portfolio</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Eddy's Portfolio</title>
+    <link rel="stylesheet" href="./shared-styling.css" text="text/css" />
+    <link rel="stylesheet" href="./portfolioV2.css" text="text/css" />
+  </head>
 
-  <link rel="stylesheet" href="./shared-styling.css" text="text/css">
-  <link rel="stylesheet" href="./portfolioV2.css" text="text/css">
-</head>
-
-<body>
-  <nav class="navbar">
-    <a href="./"><img src="./images/logo.png" alt="logo" /></a>
-    <ul class="nav-links">
-
-      <li><a href="./AboutMe.html">About</a></li>
-      <li><a href="#skills">Projects</a></li>
-      <li><a href="">Designs</a></li>
-
-    </ul>
-    <button class="primary-button"><a href="">Contact</a></button>
-  </nav>
-  <div class=" home-banner">
-    <img class="eddy-ilustration" src="./images/Eddy Illustration.png">
-    <div class="hi-emoji-h1">
-      <img class="hi-emoji" src="./images/Hi emoji.svg">
-      <h1>Hi I’m Eddy Chandra</h1>
-    </div>
-    <p class="home-description">I’m a UI/UX designer.I love to work with the companies, helping them build
-      beautifully
-      clean, user-friendly
-      apps and website.</p>
-    <a class="button-link" href="./images/Eddy Chandra resume .pdf" download><button
-        class="primary-button primary-button--wide">Resume</button></a>
-  </div>
-
-  <section id="skills" class="my-skill">
-    <div class="flex-container skills-heading">
-      <h2 class="skills">My Skills</h2>
-    </div>
-    <div class="flex-container">
-      <div class="skill-heading"> <img class="uxui-image" src="./images/User research icon.png" alt="User Research" />
-        <p class="outline-heading">User Research</p>
+  <body>
+    <nav class="navbar">
+      <a href="./"><img src="./images/logo.png" alt="logo" /></a>
+      <ul class="nav-links">
+        <li><a href="./AboutMe.html">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="">Designs</a></li>
+      </ul>
+      <button class="primary-button">
+        <a href="mailto:eddy.chandra26@hotmail.com">Contact</a>
+      </button>
+    </nav>
+    <div class="home-banner">
+      <img class="eddy-ilustration" src="./images/Eddy Illustration.png" />
+      <div class="hi-emoji-h1">
+        <img class="hi-emoji" src="./images/Hi emoji.svg" />
+        <h1>Hi I’m Eddy Chandra</h1>
       </div>
+      <p class="home-description">
+        I’m a UI/UX designer.I love to work with the companies, helping them
+        build beautifully clean, user-friendly apps and website.
+      </p>
+      <a class="button-link" href="./images/Eddy Chandra resume .pdf" download
+        ><button class="primary-button primary-button--wide">Resume</button></a
+      >
     </div>
-    <div class="flex-container">
-      <div class="skill-heading"> <img class="uxui-image" src="./images/user-interface icon.png" alt="User Interface" />
-        <p class="outline-heading">User Interface</p>
+
+    <section id="skills" class="my-skill">
+      <div class="flex-container skills-heading">
+        <h2 class="skills">My Skills</h2>
       </div>
-    </div>
-    <div class="flex-container">
-      <div class="skill-heading"> <img class="uxui-image" src="./images/web-development icon.png"
-          alt="Web development" />
-        <p class="outline-heading">web-development</p>
+      <div class="flex-container">
+        <div class="skill-heading">
+          <img
+            class="uxui-image"
+            src="./images/User research icon.png"
+            alt="User Research"
+          />
+          <p class="outline-heading">User Research</p>
+        </div>
       </div>
-    </div>
-  </section>
+      <div class="flex-container">
+        <div class="skill-heading">
+          <img
+            class="uxui-image"
+            src="./images/user-interface icon.png"
+            alt="User Interface"
+          />
+          <p class="outline-heading">User Interface</p>
+        </div>
+      </div>
+      <div class="flex-container">
+        <div class="skill-heading">
+          <img
+            class="uxui-image"
+            src="./images/web-development icon.png"
+            alt="Web development"
+          />
+          <p class="outline-heading">Web design</p>
+        </div>
+      </div>
+    </section>
 
-  <h2 class="projects-heading">Projects</h2>
+    <h2 id="projects" class="projects-heading">Projects</h2>
 
-  <section class="blue-gradients projects-section two-column-grid portfolio-page-margins">
-    <div class="column-text">
-      <h3>VINNIES Shop<br />Web app</h3>
-      <p>A NFP organisation that provides e-commerce platfom for their donors and customers pre- and
-        post-pandemic.</p>
-      <a class="button-link" href="./Vinnies-casestudy.html"><button class="primary-button primary-button--wide">View
-          Project</button></a>
-    </div>
-    <div class="column-image">
-      <img src="./images/Vinnies image.png">
-    </div>
-  </section>
+    <section class="blue-gradients projects-section two-column-grid">
+      <div class="column-text">
+        <h3>VINNIES Shop<br />Web app</h3>
+        <p>
+          Creating an e-commerce platform for a NFP organisation's donors and
+          and customers to use pre- and post-pandemic.
+        </p>
+        <a class="button-link" href="./Vinnies-casestudy.html"
+          ><button class="primary-button primary-button--wide">
+            View Project
+          </button></a
+        >
+      </div>
+      <div class="column-image">
+        <img src="./images/Vinnies image.png" />
+      </div>
+    </section>
 
-  <section class="orange-gradients projects-section two-column-grid portfolio-page-margins">
-    <div class="column-text">
-      <h3>Edgar's Mission<br />Redesign</h3>
-      <p>A NFP sanctuary for rescue and protection of farm animals with a new code of paint.</p>
-      <a class="button-link" href="./Edgar.html"><button class="primary-button primary-button--wide">View
-          Project</button></a>
-    </div>
-    <div class="column-image">
-      <img src="./images/Edgar's-Mockup.png">
-    </div>
-  </section>
+    <section class="orange-gradients projects-section two-column-grid">
+      <div class="column-text">
+        <h3>Edgar's Mission<br />Redesign</h3>
+        <p>
+          A NFP sanctuary for rescue and protection of farm animals with a new
+          coat of paint.
+        </p>
+        <a class="button-link" href="./Edgar.html"
+          ><button class="primary-button primary-button--wide">
+            View Project
+          </button></a
+        >
+      </div>
+      <div class="column-image">
+        <img src="./images/Edgar's-Mockup.png" />
+      </div>
+    </section>
 
-  <section class="violet-gradients projects-section two-column-grid portfolio-page-margins">
-    <div class="column-text">
-      <h3>ExerciseBuddy<br />App</h3>
-      <p>A made up fitness app with the purpose to encourge people to exercise even 30 minutes a day by promoting
-        buddy
-        challenge.</p>
-      <a class="button-link" href="TODO"><button class="primary-button primary-button--wide">View Project</button></a>
+    <section class="violet-gradients projects-section two-column-grid">
+      <div class="column-text">
+        <h3>ExerciseBuddy<br />App</h3>
+        <p>
+          A mock fitness app with the purpose to encourge people to exercise by
+          challenging your friends.
+        </p>
+        <a class="button-link" href="TODO"
+          ><button class="primary-button primary-button--wide">
+            View Project
+          </button></a
+        >
+      </div>
+      <div class="column-image">
+        <img src="./images/Exbuddy Mockup.png" />
+      </div>
+    </section>
+
+    <section class="oceanblue-gradients projects-section two-column-grid">
+      <div class="column-text">
+        <h3>CAASA Website<br />Redesign</h3>
+        <p>I researched, wireframed and designed a mobile app in Figma.</p>
+        <a class="button-link button-link--disabled" href="TODO"
+          ><button
+            disabled="true"
+            class="primary-button primary-button--wide primary-button--disabled"
+          >
+            Coming soon
+          </button></a
+        >
+      </div>
+      <div class="column-image">
+        <img src="./images/CAASA Mockup.png" />
+      </div>
+    </section>
+  </body>
+  <footer class="footer-section">
+    <img class="coffee-ilustration" src="./images/Coffee-illustration.png" />
+    <p class="footer-description">
+      Thank you so much for visiting my portfolio and you can learn more about
+      me <a href="./AboutMe.html">here</a>.
+    </p>
+    <h3>Let’s get connected!</h3>
+    <h3 class="footer-connect">Would like to get to know you!</h3>
+
+    <div class="social-links">
+      <ul>
+        <li>
+          <a href="#"
+            ><img class="social-icon" src="./images/email 2.png" alt="Mail"
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/eddy-chandra-/"
+            ><img
+              class="social-icon"
+              src="./images/linkedin icon.png"
+              alt="Linkedin"
+          /></a>
+        </li>
+      </ul>
     </div>
-    <div class="column-image">
-      <img src="./images/Exbuddy Mockup.png">
-    </div>
-  </section>
 
-  <section class="oceanblue-gradients projects-section two-column-grid portfolio-page-margins">
-    <div class="column-text">
-      <h3>CAASA Website<br />Redesign</h3>
-      <p>I researched, wireframed and designed a mobile app in Figma.</p>
-      <a class="button-link" href="TODO"><button class="primary-button primary-button--wide">View Project</button></a>
-    </div>
-    <div class="column-image">
-      <img src="./images/CAASA Mockup.png">
-    </div>
-  </section>
-
-</body>
-<footer class="footer-section">
-  <img class="coffee-ilustration" src="./images/Coffee-illustration.png">
-  <p class="footer-description">Thank you so much for visiting my portfolio and you can learn more about me <a
-      href="./AboutMe.html">here.</a></p>
-  <h3> Let’s get connected!</h3>
-  <h3 class="footer-connect">Would like to get to know you!</h3>
-
-  <div class="social-links">
-    <ul>
-      <li><a href="#"><img class="social-icon" src="./images/email 2.png" alt="Mail" /></a>
-      </li>
-      <li><a href="https://www.linkedin.com/in/eddy-chandra-/"><img class="social-icon" src="./images/linkedin icon.png"
-            alt="Linkedin" /></a></li>
-    </ul>
-  </div>
-
-  <p class="footer-text">I design and coded this portfolio from scratch Eddy Chandra ⏤ 2021</p>
-</footer>
-
+    <p class="footer-text">
+      I designed and coded this portfolio from scratch Eddy Chandra ⏤ 2021
+    </p>
+  </footer>
 </html>

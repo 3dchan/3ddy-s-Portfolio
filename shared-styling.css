@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Domine';
+  font-family: "Domine";
   src: url("./css/Domine/Domine-Regular.ttf");
 }
 
@@ -9,100 +9,128 @@
   box-sizing: border-box;
 }
 
-html,body{
-  background-color: #FBF7FE;
+html,
+body {
+  background-color: #fbf7fe;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin-left: 130px;
+  margin-right: 130px;
 }
 
 /* Navigation */
 .navbar {
-  margin: 45px 130px;
+  margin: 45px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-nav ul, nav li {
+nav ul,
+nav li {
   display: inline;
   margin: 0 30px;
 }
 
-
-p, h1, h2, h3 {
+p,
+h1,
+h2,
+h3 {
   margin: 0;
   padding: 0;
 }
 
 /* text styling */
-h1{
-  font-family:'Domine';
+h1 {
+  font-family: "Domine";
   letter-spacing: -2px;
   font-weight: 400;
   font-size: 55px;
   margin-bottom: 0.5rem;
 }
 
-h2{
-  font-family:'Domine';
+h2 {
+  font-family: "Domine";
   font-size: 40px;
   font-weight: 400;
 }
-h3{
-  font-family: 'Avenir';
+h3 {
+  font-family: "Avenir";
   font-size: 40px;
 }
 
-h4{
-  font-family: 'Avenir';
+h4 {
+  font-family: "Avenir";
   font-size: 25px;
 }
 
-li, button, p{
-  font-family: 'Avenir';
+li,
+button,
+p {
+  font-family: "Avenir";
   font-size: 20px;
 }
-button a, nav a{
+
+p {
+  line-height: 150%;
+}
+
+button a,
+nav a {
   text-decoration: none;
 }
 
-button a, button a:visited{
-  color: #FBF7FE;
+button a,
+button a:visited {
+  color: #fbf7fe;
 }
 
 nav li a,
-nav li a:visited{
+nav li a:visited {
   color: black;
 }
 /* Button */
-.primary-button{
+.primary-button {
   border-radius: 12px;
   border-color: transparent;
-  background-color: #89AAFF;
+  background-color: #89aaff;
   padding: 12px 35px;
   font-weight: bold;
   color: white;
-  }
-  .primary-button--wide{
+}
+.primary-button--wide {
   padding: 12px 50px;
-  }
+}
+
+.primary-button:disabled {
+  background-color: #515560;
+}
 
 .button-link button {
   cursor: pointer;
 }
 
-  /* Footer */
-.footer-section{
-  margin: 150px 130px 130px;
+.button-link--disabled button {
+  cursor: default;
+}
+
+/* Footer */
+.footer-section {
+  margin: 150px 0 130px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: justify;
 }
 
-.footer-description{
+.footer-description {
   margin: 50px;
 }
 
-.footer-connect{
+.footer-connect {
   font-size: 30px;
   font-weight: 400;
 }
@@ -121,11 +149,21 @@ footer li:last-child {
   margin-left: 30px;
 }
 
-.social-links{
+.social-links {
   margin: 50px 30px;
 }
 
-footer a, .footer-text{
+footer a,
+.footer-text {
   text-decoration: none;
-  color: #0061F3;
+  color: #0061f3;
+}
+
+/* Layouts */
+.two-column-grid {
+  display: grid;
+  grid-column-gap: 0;
+  align-items: center;
+  justify-content: space-between;
+  grid-template-columns: repeat(2, 1fr);
 }
