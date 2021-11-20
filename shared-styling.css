@@ -128,12 +128,12 @@ nav li a:visited {
   color: #515560;
 }
 
-.nav-link {
+.nav-link, .social-icon {
   display: inline-block;
   transition: transform 250ms ease-in;
 }
 
-.nav-link:hover {
+.nav-link:hover, .social-icon:hover {
   transform: scale(1.1);
 }
 
