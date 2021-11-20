@@ -26,6 +26,10 @@
   align-items: center;
 }
 
+.about-me-details li {
+  margin-bottom: 20px;
+}
+
 .button-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
