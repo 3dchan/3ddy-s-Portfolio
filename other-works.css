@@ -1,0 +1,38 @@
+.other-works-section {
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+
+.other-works-section h2 {
+  margin-bottom: 40px;
+}
+
+.image-gallery {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 25px;
+}
+
+.image-gallery .flex-row {
+  align-items: center;
+}
+
+.grid-item--large {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.grid-item--x-large {
+  grid-column: span 4;
+  grid-row: span 4;
+}
+
+.grid-item-small {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+.grid-item--wide {
+  grid-column: span 2;
+}

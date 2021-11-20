@@ -175,6 +175,20 @@ footer a,
   grid-template-columns: repeat(2, 1fr);
 }
 
+.flex-row {
+  display: flex;
+}
+
+.column-2 {
+  flex: 50%;
+  padding: 10px;
+}
+
+.column-4 {
+  flex: 25%;
+  padding: 10px;
+}
+
 /* Wireframe classes */
 
 .wireframe {

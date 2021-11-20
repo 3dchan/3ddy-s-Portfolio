@@ -106,15 +106,6 @@ h1 {
   margin: auto;
 }
 
-.row {
-  display: flex;
-}
-
-.column {
-  flex: 25%;
-  padding: 10px;
-}
-
 /* Solution */
 .solution {
   margin-top: 80px;
