@@ -100,6 +100,7 @@ nav li a:visited {
   padding: 12px 35px;
   font-weight: bold;
   color: white;
+  transition: all 250ms ease-in;
 }
 .primary-button--wide {
   padding: 12px 50px;
